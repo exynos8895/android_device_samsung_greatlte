@@ -16,13 +16,13 @@
 # inherit from common
 -include device/samsung/universal8895-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/dreamlte
+DEVICE_PATH := device/samsung/greatlte
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := dreamlte
+TARGET_OTA_ASSERT_DEVICE := greatlte
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos8895-dreamlte_defconfig
+TARGET_KERNEL_CONFIG := exynos8895-greatlte_defconfig
 
 # inherit from the proprietary version
--include vendor/samsung/dreamlte/BoardConfigVendor.mk
+-include vendor/samsung/greatlte/BoardConfigVendor.mk

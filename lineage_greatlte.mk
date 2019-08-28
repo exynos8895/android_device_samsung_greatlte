@@ -18,25 +18,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from dreamlte device
-$(call inherit-product, device/samsung/dreamlte/device.mk)
+# Inherit from greatlte device
+$(call inherit-product, device/samsung/greatlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := dreamlte
-PRODUCT_NAME := lineage_dreamlte
+PRODUCT_DEVICE := greatlte
+PRODUCT_NAME := lineage_greatlte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G950F
+PRODUCT_MODEL := SM-N950F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=dreamltexx \
-    PRIVATE_BUILD_DESC="dreamltexx-user 8.0.0 R16NW G950FXXU1CRC7 release-keys"
+    PRODUCT_NAME=greatltexx \
+    PRIVATE_BUILD_DESC="greatltexx-user 8.0.0 R16NW N950FXXU3CRC1 release-keys"
 
-BUILD_FINGERPRINT := samsung/dreamltexx/dreamlte:9/PPR1.180610.011/G950FXXS4DSC2:user/release-keys
+BUILD_FINGERPRINT := samsung/greatltexx/dreamlte:8.0.0/R16NW/N950FXXU3CRC1:user/release-keys
