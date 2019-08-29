@@ -37,6 +37,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=greatltexx \
-    PRIVATE_BUILD_DESC="greatltexx-user 8.0.0 R16NW N950FXXU3CRC1 release-keys"
+    PRIVATE_BUILD_DESC="greatltexx-user 9 PPR1.180610.011 N950FXXS7DSH1 release-keys"
 
-BUILD_FINGERPRINT := samsung/greatltexx/dreamlte:8.0.0/R16NW/N950FXXU3CRC1:user/release-keys
+BUILD_FINGERPRINT := samsung/greatltexx/greatlte:9/PPR1.180610.011/N950FXXS7DSH1:user/release-keys
