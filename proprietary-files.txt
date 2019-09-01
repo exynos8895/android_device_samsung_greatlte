@@ -102,6 +102,11 @@ vendor/firmware/companion_imx333_master_setfile.bin
 vendor/firmware/companion_imx333_mode_setfile.bin
 vendor/firmware/dsm.bin
 vendor/firmware/dsm_tune.bin
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta_2l2_3h1.bin
+vendor/firmware/fimc_is_rta_2l2_imx320.bin
+vendor/firmware/fimc_is_rta_imx333_3h1.bin
+vendor/firmware/fimc_is_rta_imx333_imx320.bin
 vendor/firmware/iva10_rt-kangchen.bin
 vendor/firmware/mfc_fw.bin
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
@@ -117,10 +122,3 @@ vendor/firmware/setfile_3m3.bin
 vendor/firmware/setfile_imx320.bin
 vendor/firmware/setfile_imx333.bin
 vendor/firmware/vts.bin
-
-# Firmware - from N950FXXS7DSH1
-vendor/firmware/fimc_is_lib.bin|49ac95e2bd9952e6261e3f58a8b6e0a90e7df480
-vendor/firmware/fimc_is_rta_2l2_3h1.bin|04e9614062231b07244a27223219266b11a42365
-vendor/firmware/fimc_is_rta_2l2_imx320.bin|670011935fa4601b5641cd6436ef07742612d5c0
-vendor/firmware/fimc_is_rta_imx333_3h1.bin|d5505ee5880aea729c2019b064ae7957c9e4c28b
-vendor/firmware/fimc_is_rta_imx333_imx320.bin|aefbdbe7e1a72917f945a89b905812139e0704c9
