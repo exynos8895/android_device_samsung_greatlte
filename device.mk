@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+PRODUCT_PACKAGES += \
+    AncientParts
+    
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
