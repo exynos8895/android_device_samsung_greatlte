@@ -8,7 +8,7 @@ lib/libIDDQD_interface.so
 lib/libblurdetection.so
 lib/libblurdetection_interface.so
 lib/libexynoscamera.so
-lib/libexynoscamera3.so
+lib/libexynoscamera3.so|53c4bea30f451dac967c55c90c1381f350f3d9da
 lib/libfocuspeaking.so
 lib/libfocuspeaking_interface.so
 lib/libhifills_interface.so
