@@ -69,10 +69,6 @@ vendor/lib64/libsomp.camera.samsung.so
 vendor/lib64/libvxu.so
 vendor/lib64/libxcv.camera.samsung.so
 
-# RIL
-lib/libsecril-client.so
-lib64/libsecril-client.so
-
 # Firmware
 vendor/etc/plmn_delta.bin
 vendor/etc/plmn_delta_attaio.bin
